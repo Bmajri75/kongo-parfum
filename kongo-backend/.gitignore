@@ -1,0 +1,38 @@
+# ============================================
+# GITIGNORE BACKEND KONGO
+# ============================================
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Variables d'environnement (IMPORTANT : ne jamais publier)
+.env
+.env.local
+.env.production
+
+# Certificats SSL (ne jamais publier les certificats)
+ssl/
+*.pem
+*.key
+*.crt
+
+# Logs
+logs/
+*.log
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
+
+# Éditeurs de code
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers temporaires
+tmp/
+temp/
