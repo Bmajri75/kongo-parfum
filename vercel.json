@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd kongo-frontend && npm install && npm run build",
+  "outputDirectory": "kongo-frontend/dist",
+  "framework": "angular"
+}
